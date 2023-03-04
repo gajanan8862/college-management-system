@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pre_attendance.css">
+    <title>Selection</title>
+</head>
+<body>
+    <center><div class="title">
+        Attendance
+    </div></center>
+    <form action="http://localhost/bcct/att.php" method="post">
+        <div class="container">
+            <span>Select year :</span>
+            <div class="select-year">
+                <span class="option yr"><input type="radio" name="year" value="firstyear" id="firstyr"><label for="firstyr">1st year</label></span>
+                <span class="option yr"><input type="radio" name="year" value="secondyear" id="secondyr"><label for="secondyr">2nd year</label></span>
+                <span class="option yr"><input type="radio" name="year" value="thirdyear" id="thirdyr"><label for="thirdyr">3rd year</label</span>
+            </div><br>
+            <span>Select stream :</span>
+            <div class="select-stream">                           
+                <span class="option strm"><input type="radio" name="stream" value="bca" id="bca"><label for="bca">BCA</label></span>
+                <span class="option strm"><input type="radio" name="stream" value="bba" id="bba"><label for="bba">BBA</label></span>
+                <span class="option strm"><input type="radio" name="stream" value="ba" id="ba"><label for="ba">BA</label></span>
+                <span class="option strm"><input type="radio" name="stream" value="bsc" id="bsc"><label for="bsc">BSC</label></span>
+                <span class="option strm"><input type="radio" name="stream" value="bcom" id="bcom"><label for="bcom">BCOM</label></span>
+            </div>
+            <div class="actions">
+                <input type="button" id="cancel" value="Cancel">
+                <input type="submit" id="submit" value="Next">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

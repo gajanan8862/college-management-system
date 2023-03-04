@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(167, 254, 247);
+}
+
+.clg-banner{
+    background-color: rgb(238, 238, 65);
+    margin-left: -7px;
+    margin-right: -6px;
+    padding-bottom: 4px;
+}
+.clg-banner-1{
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(9, 171, 33);
+    font-size: 75px;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+    border-bottom: 3px solid rgb(12, 208, 25);
+    padding-bottom: 5px;
+}
+.clg-banner-2{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 46, 46);
+    font-size: 28px;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+}
+.title{
+    padding-top: 13px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(10, 10, 171);
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.options{
+    padding-top:30px;
+    padding-left: 60px;
+    display: flex;
+}
+.options :nth-child(){
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 40px;
+    font-size: 28px;
+    width: 250px;
+    height: 90px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn:hover{
+    background-color: greenyellow;
+    box-shadow: rgb(136, 144, 153) 3px 7px 100px 30px;
+}
+.btn1{
+    background-color: rgb(73, 222, 10);
+}
+.btn2{
+    background-color: rgba(25, 88, 236, 0.847);
+}
+.btn3{
+    background-color: rgba(220, 49, 149, 0.781);
+}
+.btn4{
+    background-color: rgba(255, 0, 0, 0.743);
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 200px;
+    width: 380px;
+    visibility: hidden;
+    border: 1px solid black;
+    color: rgb(8, 3, 35);
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(136, 144, 153) 1px 7px 100px 30px;
+}
+form>.cls{
+    margin-right: 12px;
+    margin-top: 6px;
+    text-align: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+form>.tit{
+    text-align: center;
+    font-weight: bold;
+    width: calc(100% - 130px);
+    margin-left: auto;
+    margin-right: auto;
+}
+#search_roll{
+    width: calc(100% - 120px);
+    text-align: center;
+    margin-top: 9%;
+    font-size: 20px;
+    height: 40px;
+}
+#roll_submit{
+    width: calc(100% - 250px);
+    font-size: 20px;
+    margin-top: 7px;
+    border :1px solid rgb(7, 73, 229);
+    cursor: pointer;
+
+}
+.open-popup{
+    visibility: visible;
+}

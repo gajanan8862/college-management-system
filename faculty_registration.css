@@ -1,0 +1,54 @@
+*{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(127, 255, 212, 0.469);
+}
+form{
+    border: 6px solid black;
+    border-radius: 40px 0 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding: 50px;
+    background: url("background.webp");
+}
+.inputs{
+    border: 2px solid rgb(131, 117, 132);
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgba(240, 255, 255, 0.349);
+}
+label{
+    display: block;
+    margin-left: 4%;
+    padding: 12px;
+}
+.title{
+    font-size: 65px;
+    word-spacing: 4vh;
+    color: rgb(113, 24, 95);
+}
+input[type="text"]{
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: rgb(218, 249, 200);
+}
+#fname{
+    margin-left: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    margin-left: 7%;
+    width: 145px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    border: 3px solid rgb(78, 47, 255);
+    margin-left: 26%;
+}
+input[type="reset"]{
+    border: 3px solid rgb(18, 17, 17);
+}

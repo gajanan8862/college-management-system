@@ -1,0 +1,43 @@
+#title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 65px;
+    word-spacing: 2vh;
+    color: rgb(134, 7, 100);
+}
+body{
+    background-color: rgba(127, 255, 212, 0.658);
+}
+
+table{
+    font-size: 27px;
+    border-spacing: 0;
+    text-align: left;
+    min-width: max-content;
+}
+.table-wrapper{
+    margin-bottom: 40px;
+    background: url("background.webp");
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: 450px;
+    overflow-x: scroll;
+    box-shadow: rgba(221, 225, 94, 0.12) 0px 20px 20px 0px, rgba(8, 58, 195, 0.418) 0px 2px 16px 0px;
+}
+td,th{
+    padding-left: 5px;
+    padding-right: 15px;
+    border: 0.7px solid rgb(17, 4, 57);
+    
+}
+th{
+    font-size: 32px;
+}
+tr:nth-child(odd){
+    background-color: rgba(134, 123, 123, 0.18);
+
+}

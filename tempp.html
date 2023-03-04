@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div>
+        <div class="clg-banner">
+            <div class="clg-banner-1">
+                Badriprasad
+            </div>
+            <div class="clg-banner-2">
+                College of Computer Technology
+            </div>
+        </div>
+        <div class="title">
+            Student Detail Management
+        </div>
+            <div>
+            <form action="" id="popup">
+            <!--
+                <div class="cls"><input type="button" value="X" name="clode-btn"></div>
+            -->    
+                <div class="tit"><br><br>Sorry... The page is in developement process.<br><br></div>
+            <!--    <center><input type="text" id="search_roll" placeholder="Enter roll number to update"></center><br>
+            -->
+                <center><input type="button" value="Okay" name="submit" onclick="closePopup()" id="roll_submit"></center>
+            </form>
+            </div>
+        <div class="options">
+            <div>
+                <a href="http://localhost/bcct/details.php"><button class="btn btn1">All student detail</button></a>
+            </div>
+            <div>
+                <a href="http://localhost/bcct/registration.php"><button class="btn btn2">Register a student</button></a>
+            </div>
+            <div>
+                <button class="btn btn3" onclick="openPopup()">Update record</button>
+            </div>
+            <div>
+                <a href="http://localhost/bcct/delete.php"><button class="btn btn4">Delete a record</button></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

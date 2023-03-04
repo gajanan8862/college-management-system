@@ -1,0 +1,44 @@
+*{
+    font-size: 26px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    width: max-content;
+    padding: 40px;
+    box-shadow: rgb(136, 144, 153) 1px 4px 10px 3px;
+}
+
+.title{
+    font-size: 65px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    margin-bottom: 30px;
+    color: rgb(99, 2, 80);
+}
+table{
+    text-align: left;
+    background: url("background.webp");
+    border: 4px solid rgb(30, 158, 7);
+    border-radius: 0 40px 0 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-spacing: 0;
+    padding: 30px;
+}
+td,th{
+    padding: 4px 20px 4px 10px;
+}
+tr:nth-child(odd){
+    background-color: rgba(69, 72, 72, 0.055);
+}

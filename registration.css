@@ -1,0 +1,92 @@
+*{
+    font-size: 23px;
+}
+
+#title{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    color:#220a83;
+    word-spacing: 1px;
+    letter-spacing:0px;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+input[type="text"],input[type="date"]{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    border: 2px solid rgb(78, 74, 74);
+    margin-top: -2px;
+}
+input[type="submit"],input[type="reset"],input[type="button"]{
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    margin-left: 3%;
+    border: 2px solid rgb(47, 65, 178);
+    background-color: rgb(224, 226, 236);
+
+}
+input[type="button"]{
+    border: 1px solid grey;
+}
+input[type="reset"]{
+    border: 1px solid red;
+}
+input[type="submit"]:hover{
+    background-color: rgb(112, 159, 174);
+}
+form{
+    border: 1px solid rgb(50, 54, 55);
+    width: max-content;
+    padding: 0 70px 20px 70px;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    background-image: url("background.webp");
+    box-shadow: rgba(153, 170, 25, 0.12) 0px 12px 14px 0px, rgba(18, 152, 8, 0.539) 0px 2px 16px 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 211, 250);
+}
+label{
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+    
+
+}
+.option{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 5px;
+    margin-left: 10px;
+    background: rgba(129, 181, 33, 0.5);
+    font-size: 20px;
+    width: 108px;
+}
+.yr{
+    background-color: rgba(17, 210, 204, 0.6);
+}
+.stream-hint{
+    display: inline-block;
+    margin-left: -122px;
+    padding-left: 33px;
+}
+.space{
+    display: inline-block;
+    margin-left: 124px;
+}
+.year-hint{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 33px;
+}

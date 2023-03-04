@@ -1,0 +1,87 @@
+*{
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: azure;
+}
+#title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 65px;
+    word-spacing: 2vh;
+    color: rgb(5, 169, 51);
+}
+
+#div1{
+    border: 5px solid rgb(8, 156, 189);
+    border-radius: 20px 0 20px 0;
+    padding: 50px;
+    margin-left: auto;
+    margin-top: 10px;
+    background: url("background.webp");
+    margin-right: auto;
+    width: max-content;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    margin-top: 25px;
+    background: url("background.webp");
+    border-radius: 20px 0 20px 0;
+    border: 5px solid rgb(125, 1, 162);
+    padding: 17px 50px 40px 50px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"]{
+    border: 2px solid grey;
+    border-radius: 2px;
+    display: block;
+    padding: 7px 2px 7px 2px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+#fid,#fname{
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#nxtbtn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    margin-top: 20px;
+    height: 40px;
+    border: 2px solid rgb(54, 47, 255);
+}
+#entrybtn{
+    border: 2px solid rgb(185, 7, 217);
+    margin-top: 20px;
+    margin-left:7%;
+    width: 39%;
+    height: 60px;
+    background-color: rgb(48, 230, 16);
+}
+#exitbtn{
+    border: 2px solid red;
+    width: 39%;
+    background-color: orange;
+    height: 60px;
+    margin-left: 6%;
+}
+#nxtbtn:hover,#entrybtn:hover,#exitbtn:hover{
+    cursor: pointer;
+    box-shadow: rgba(221, 225, 94, 0.12) 0px 20px 20px 0px, rgba(98, 22, 240, 0.539) 0px 2px 16px 0px;
+
+}
+.form{
+    display: none;
+}
+.form-dislay{
+    display: block;
+}

@@ -1,0 +1,111 @@
+*{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#title{
+    text-align: center;
+    font-size: 70px;
+    margin-left: auto;
+    color: rgb(120, 1, 141);
+}
+body{
+    background: rgb(96, 242, 237);
+}
+table{
+    text-align: left;
+    background: url("background.webp");
+    border: 4px solid rgb(30, 158, 7);
+    border-radius: 0 40px 0 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-spacing: 0;
+    padding: 30px;
+}
+th{
+    padding-bottom: 13px;
+    font-size: 27px;
+    background-color: rgba(172, 255, 47, 0.477);
+}
+td{
+    padding-bottom: 8px;
+}
+table tr:nth-child(even){
+    background-color: rgba(174, 187, 172, 0.3);
+}
+
+tbody>tr>:nth-child(1){
+    width:70px;
+}
+
+tbody>tr>:nth-child(2){
+    width:160px;
+}
+
+tbody>tr>:nth-child(3){
+    width:auto;
+    padding-right: 23px;
+}
+   tbody>tr>:nth-child(4){
+    width:180px;
+}
+   tbody>tr>:nth-child(5){
+    width:160px;
+}
+   tbody>tr>:nth-child(6){
+    width:160;
+}
+
+input[type="text"],.date{
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(12, 212, 12);
+    border-radius: 4px;
+}
+.date{
+    background: white;
+    width: 120px;
+    padding: 9px;
+    padding-bottom: 8px;
+    min-width: 50px;
+}
+.select-stream,.select-year,.basic{
+    margin-left: 9%;
+    width: max-content;
+}
+
+.select{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(52, 52, 56);
+    border-radius: 0 40px 0 40px;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: rgba(249, 242, 242, 0.943);
+}
+#nxtbtn,.submit-btn{
+    width: 160px;
+    height: 70px;
+    position: relative;
+    bottom: 27px;
+    left: 145px ;
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: greenyellow;
+    border-radius: 4px;
+}
+
+.submit-btn{
+    width: 220px;
+    margin-top: 30px;
+    left: 68%;
+}
+
+#attsheet{
+    
+}
+.display-sheet{
+    display: block;
+    border: 3px solid rgb(0, 255, 26);
+}

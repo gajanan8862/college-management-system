@@ -1,0 +1,29 @@
+*{
+    font-size: 27px;
+}
+
+#title{
+    text-align: center;
+    font-size: 65px;
+    color: rgb(110, 9, 105);
+    word-spacing: 13px;
+    font-weight: bold;
+}
+body{
+    background-color: lightcyan;
+}
+table{
+    margin-top: 50px;
+    border: 7px solid rgb(169, 198, 3);
+    border-radius: 0 40px 0 40px;
+    padding: 30px;
+    background: white;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+td,th{
+    border: 2px solid rgb(110, 13, 13);
+    padding:6px 20px 6px 10px;
+    text-align: center;
+}

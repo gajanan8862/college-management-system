@@ -1,0 +1,39 @@
+*{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(224, 243, 160);
+}
+#title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 65px;
+    word-spacing: 4vh;
+    color: rgb(113, 45, 24);
+    font-weight: bold;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid rgb(4, 8, 134);
+    border-radius:0 50px 0 50px;
+    border-spacing: 0;
+    text-align: left;
+    width: 79%;
+    padding: 50px;
+    background-image: url("background.webp");
+}
+td{
+    color: rgb(39, 3, 65);
+}
+td,th{
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+tr:nth-child(odd){
+    background: rgba(128, 128, 128, 0.087);
+}

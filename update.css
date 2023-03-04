@@ -1,0 +1,57 @@
+*{
+    font-size: 25px;
+}
+body{
+    background-color: rgb(156, 211, 250);
+}
+#title{
+    font-size: 33px;
+    color:#202020;
+    word-spacing: 1px; letter-spacing:1px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form2,.form1{
+    border: 4px solid rgb(19, 128, 9);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("background.webp");
+    font-size: 25px;
+}
+input[type="submit"],#button1{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(15, 13, 98);
+    background-color: rgb(113, 220, 31);
+
+}
+input[type="submit"]:hover,#button1:hover{
+    background-color: rgb(26, 123, 15);
+    color: rgb(226, 231, 194);
+}
+input{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    border: 2px solid rgb(78, 74, 74);
+}
+#search_roll{
+    margin-left:75px;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+}
+#button1{
+    width: 120px;
+    height: 50px;
+}
+.fform2{
+    visibility: hidden;
+}
